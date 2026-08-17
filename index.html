@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vienesa Vintage | Cafetería en Quetzaltenango</title>
+    
+    <!-- Hojas de Estilo y Fuentes -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#inicio" class="logo">
+                <img src="img/imagen_2026-08-04_204146470-Photoroom.png" alt="Vienesa Vintage Logo">
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#eventos" class="nav-link">Eventos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero / Portada -->
+    <section id="inicio" class="hero" style="background-image: linear-gradient(rgba(28, 17, 14, 0.55), rgba(28, 17, 14, 0.65)), url('img/716390582_17904206457427837_7884414120265065244_n.jpg');">
+        <div class="hero-content container">
+            <span class="hero-subtitle">Cafetería & Jardín Tradicional</span>
+            <h1>Bienvenido a Vienesa Vintage</h1>
+            <p>Un espacio único donde la tradición, la buena gastronomía y la elegancia se encuentran.</p>
+            <a href="#contacto" class="btn">Reservar o Consultar</a>
+        </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="section container">
+        <div class="grid-2">
+            <div class="img-block">
+                <img src="img/zsd.jpg" alt="Sobre nosotros" class="rounded-img">
+            </div>
+            <div class="text-block">
+                <h2>Nuestra Historia</h2>
+                <p>Vienesa Vintage nace de la pasión por rescatar la tradición de las antiguas vienesas guatemaltecas, combinándola con una propuesta gastronómica moderna. Nuestro espacio está rodeado de hermosos jardines, vegetación abundante y una decoración vintage que invita a disfrutar en familia. Ofrecemos pan de yemas tradicional, chocolate artesanal, café de altura, hamburguesas, sándwiches, frappés y mucho más, en un ambiente lleno de calidez y excelente atención.</p>
+            </div>
+        </div>
+
+        <!-- Tarjetas de Características de la Imagen -->
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon">☕</span>
+                <h3>Chocolate de calidad</h3>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🌿</span>
+                <h3>Jardin Natural</h3>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🍔</span>
+                <h3>Gastronomía</h3>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">❤️</span>
+                <h3>Atención Familiar</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería Interactiva -->
+    <section id="galeria" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title text-light">Galería</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img/choco.jpg" alt="Galería 1">
+                    <div class="gallery-overlay"><span>Chocolate Artesanal</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/598305725_17880613422427837_8451098141007488228_n.jpg" alt="Galería 2">
+                    <div class="gallery-overlay"><span>Nuestro Jardin</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/comida.jpg" alt="Galería 3">
+                    <div class="gallery-overlay"><span>Comida</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/afuera.jpg" alt="Galería 4">
+                    <div class="gallery-overlay"><span>Detalles Vintage</span></div>
+                </div>
+                <!-- Imágenes adicionales de la galería -->
+                <div class="gallery-item">
+                    <img src="img/639947702_17889128403427837_1872796676626240089_n.jpg" alt="Galería 5">
+                    <div class="gallery-overlay"><span>Bebidas</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/famili.jpg" alt="Galería 6">
+                    <div class="gallery-overlay"><span>Ambiente Familiar</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos -->
+    <section id="eventos" class="section container">
+        <div class="grid-2 reverse">
+            <div class="img-block">
+                <img src="img/757798249_17912533206427837_4485945231807664908_n.jpg" alt="Eventos especiales" class="rounded-img">
+            </div>
+            <div class="text-block">
+                <h2>Eventos Especiales</h2>
+                <p>En Vienesa Vintage ofrecemos espacios ideales para reuniones familiares, celebraciones, cumpleaños, convivios, reuniones empresariales y eventos especiales. Nuestro jardín y ambientes acogedores son el escenario perfecto para crear recuerdos inolvidables.</p>
+                <a href="https://wa.me/50200000000?text=Hola,%20me%20gustaría%20cotizar%20un%20evento" target="_blank" class="btn btn-secondary">Cotizar Evento</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación y Mapa -->
+    <section id="contacto" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Encuéntranos</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15427.504482870429!2d-91.53694046044924!3d14.832209099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858ebd0026ed8f05%3A0xf21854750b20e0a2!2sEl%20Jardin%20de%20la%20Vienesa!5e0!3m2!1ses!2sgt!4v1786064975954!5m2!1ses!2sgt" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Vienesa Vintage. Todos los derechos reservados.</p>
+            <div class="socials">
+                <a href="https://www.facebook.com/profile.php?id=100066457697682&sk=photos&locale=es_LA" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/la_vienesa_vintage/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botones Flotantes -->
+    <button id="back-to-top" class="back-to-top" aria-label="Volver arriba">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <a href="https://wa.me/50200000000?text=Hola,%20me%20gustaría%20obtener%20más%20información" class="whatsapp-btn" target="_blank" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
